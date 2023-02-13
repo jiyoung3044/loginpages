@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .loginstyle{
+            width: 300px;
+            height: 300px;
+            border:1px solid black;
+            border-radius:9px;
+            float:left;
+            margin-left: 9em;
+            margin: 8em;
+            padding: 3em;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loginstyle">
+        <h2>로그인 페이지</h2>
+        <form action="/signin" method="POST">
+            <input type="email" name="LOGINEMAIL">
+            <input type="password" name="LOGINPASS"><br>
+            <button type="submit">LOG IN</button>
+        </form>
+    </div>
+    <div class="loginstyle">
+        <h2>회원가입 페이지</h2>
+        <form action="/signup" method="POST">
+            <input type="text" name="NAME"/>
+            <input type="password" name="PASSWORD"/><br>
+            <input type="email" name="EMAIL"/><br>
+            <button type="submit">click</button>
+        </form>
+    </div>
+</body>
+</html>
